@@ -8,7 +8,6 @@ function Astronauts() {
   const astronauts = useSelector((state) => state.astronauts.entities);
 
   function handleClick() {
-    // dispatch the action creator (see below!)
     dispatch(fetchAstronauts());
   }
 
